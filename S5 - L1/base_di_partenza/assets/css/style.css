@@ -210,38 +210,60 @@ footer a {
     footer {
         margin: 2em;
     }
-    #cont {
-        display: flex;
-        justify-content: space-between;
-        background: none;
-        border: none;
-    }
-    #cont > div {
-        flex: 1;
-    }
     header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
+        text-align: left;
+    }
+    
+    header .logo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    header .logo img {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+    
+    header .logo p {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
+    
+    header nav {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20%;
     }
 
-    header p {
-        display: flex;
+    iframe {
+        display: inline-block; 
+        vertical-align: top;  
+        width: 45%;            
+        height: 300px;
     }
     
-    .logo-container {
-        display: flex;
-        align-items: center;
+    section {
+        display: inline-block;   
+        vertical-align: top;     
+        width: 45%;              
+        height: 300px;           
+        border-radius: 4%;
     }
-    
-    .logo-container img {
-        margin-right: 10px;
+
+    #video {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;  
     }
-    
-    nav ul {
-        display: flex;
-        margin: 0;
-        padding: 0;
-    }   
+
+    aside {
+        text-align: center;
+    }
+    aside div {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
 }
